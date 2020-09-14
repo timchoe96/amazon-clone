@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
 
-## Available Scripts
+This is a Amazone clone with some front-end features. You can add items to a cart and it also has full user authentication. 
 
-In the project directory, you can run:
+# Technologies
 
-### `npm start`
+The technologies used to build this website include:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML5
+- CSS3
+- REACT
+- REACT - ROUTER - DOM
+- REACT-CONTEXT-API
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# More info
 
-### `npm test`
+This website includes 3 main pages:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Home
+2. Cart
+3. Login
 
-### `npm run build`
+### Home
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The homepage features a product page resembling that of Amazon. It includes 5 products that can be selected and added to the cart. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login
 
-### `npm run eject`
+Use the sample credentials below to test out the login feature or make your own account.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+username: test@gmail.com
+password: test123
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The clone includes an authentication page which allows users to create accounts and login. The Amazon header shows whether you are logged in or not by featuring your email. Authentication is handled through  [Google Firebase](https://firebase.google.com/docs/auth)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Cart
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The cart section shows which items you have selected for checkout. It shows the subtotal cost of all your items and allows for the removal of items. 
 
-## Learn More
+# Website Images
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Homepage:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](images/home.png)
 
-### Code Splitting
+Login:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![](images/login.png)
 
-### Analyzing the Bundle Size
+Cart:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+![](images/cart.png)
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
