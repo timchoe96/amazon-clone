@@ -1,19 +1,18 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Checkout from "./Checkout";
-import Login from "./Login";
+import Checkout from "./components/Checkout/Checkout";
+import Login from "./components/Login/Login";
 import { auth } from "./firebase";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "./ContextAPI/StateProvider";
 
 function App() {
   const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log("USER IS ===>>>", authUser);
       if (authUser) {
         dispatch({
           user: authUser,

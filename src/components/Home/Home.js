@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Product from "./Product";
+import Product from "../Product/Product";
 
 function Home() {
   return (
@@ -17,6 +17,7 @@ function Home() {
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
             rating={4}
+            id="647483837"
           />
           <Product
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
